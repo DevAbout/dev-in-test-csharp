@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add -D vuepress
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.24.4
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "dev-in-test-csharp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://registry.npmjs.org/@xtuc%2fieee754: User not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/util/request-manager.js:326:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:188:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:1171:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:1091:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
