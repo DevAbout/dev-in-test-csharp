@@ -5,6 +5,7 @@ module.exports = {
   description: 'This guide is an introduction to test automation in C#',
   themeConfig: {
     sidebar: true,
+    sidebarDepth: 2,
     displayAllHeaders: true,
     sidebar: [
       '/',
