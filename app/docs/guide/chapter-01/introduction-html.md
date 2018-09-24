@@ -48,7 +48,7 @@ The browser has ignored all the spacing and has collapsed all the content. This 
 
 Browsers are designed to read and interpret HTML tags. These tags give a document structure and provide a meaningful description of different areas of a document. Modify  __index.html__ to have the following content:
 
-```
+```html
 <h1>Farm Recipes</h1>
 <p>This site contains recipes for traditional farm food. They are classic meals that will fill your stomach without emptying your wallet.<p/>
 ```
@@ -63,7 +63,7 @@ The browser did a better job because we used HTML tags to give meaning to the se
 
 ### Markup
 
-HTML is referred as a markup language. This is essentially because we include additional information (marks) to the page. It is typical for developers refer to these tags as _HTML mark-up_.
+HTML is referred as a markup language. This is essentially because we include additional information (marks) to the page. It is typical for developers refer to these tags as _HTML markup_.
 
 When used correctly HTML tags provide relevant meaning to areas of a document. Therefore these tags are often referred to as _semantic markup_. Using meaningful tags is important for accessability. Users who are visually impaired may use a screen reader to read and navigate the site. Using proper semantic markup helps the screen reader to provide a coherent experience for these users. For more information please read the [Semantic Markup article by html.com](https://html.com/semantic-markup/).
 
