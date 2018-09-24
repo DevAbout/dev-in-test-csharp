@@ -59,7 +59,7 @@ TODO: Image of Farm Recipes 3
 
 The browser did a better job because we used HTML tags to give meaning to the sections. We used __h1__ to indicate that the first line was a header and then we marked the following sentence as a paragraph using the __p__ tag.
 
---->>>> DO we need more on the basics of tags?
+--->>>> DO we need more on the basics of tags? -- yes..
 
 ### Markup
 
