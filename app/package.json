@@ -9,7 +9,8 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "vuepress": "^0.14.4"
+  "devDependencies": {},
+  "dependencies": {
+    "vuepress": "11.0.0"
   }
 }

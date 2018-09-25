@@ -20,7 +20,7 @@ Chrome is an excellent browser to have installed. It has good developer tools wh
 
 When we begin coding we will need a _root_ folder to store our projects. While this can be any location on your file system it is recommended that you follow the guide here to make it easier to follow the instructions within the guide.
 
-Using Widows Explorer or the command line create a folder called __dev__ directly under your __c__ drive e.g.
+Using Widows Explorer or the command line create a folder called ```dev``` directly under your ```c``` drive e.g.
 
 ```
 C:/dev
