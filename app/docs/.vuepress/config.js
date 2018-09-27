@@ -18,14 +18,14 @@ module.exports = {
       '/',
       '/guide/chapter-00/',
       '/guide/chapter-00/prerequisites',
-      {
-        title: '01 - Introduction',
-        collapsable: true,
-        children: [
-          '/guide/chapter-01/introduction-html',
-          '/guide/chapter-01/further-reading'
-         ]
-      }
+      '/guide/chapter-01/introduction-html'
+      // {
+      //   title: '01 - Introduction',
+      //   collapsable: true,
+      //   children: [
+      //     '/guide/chapter-01/introduction-html'
+      //    ]
+      // }
     ]
   }
 }

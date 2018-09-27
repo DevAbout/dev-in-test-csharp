@@ -4,7 +4,7 @@ In this section we begin working on an ongoing project called __Farm Recipes__. 
 
 Here we will create a single web page for that site. This will be a basic first draft and it will not include any styling. We will implement just enough to help us understand the basics of HTML. This insight will be useful when writing UI based tests.
 
-## Display File In Browser
+## Plain Text
 
 We will begin by getting a basic file to show in the browser. Start by creating a folder under __dev__ called __farm-recipes__.
 
@@ -82,11 +82,7 @@ In most cases, browsers will ignore consecutive spaces made by the space bar, ev
 - [The White-Space CSS Property](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
 :::
 
-## Compliance With The HTML 5 Specification
-
-While we have added some HTML elements we still don't have a valid HTML document. According to the HTML 5 specification we are missing a few key details.
-
-### The Html Element
+## The Html Element
 
 According to the HTML specification there should be a single root (top level) element of type `html`. This means we need to update `index.html` to be:
 
@@ -104,7 +100,7 @@ TODO: Image of HTML Element 2 (with multiple attributes)
 
 > Authors are encouraged to specify a lang attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth - [W3C](https://www.w3.org/TR/html50/semantics.html#the-html-element)
 
-### Head and Body Sections
+## Head and Body Sections
 
 Next we need to add a `head` and `body`. The `head` section contains child elements which provide [metadata](https://whatis.techtarget.com/definition/metadata) and can define or import JavaScript and Cascading Style Sheet code if required. The `head` section is not made visible to the user, these elements are not rendered like the elements we have seen before e.g. `h1` and `p`. The elements we want to be rendered should be placed in the `body` element.
 
@@ -125,11 +121,9 @@ Next we introduce these sections to `index.html`
 
 Notice the `title` element. This sets the text in the title bar or tab of the browser. This content is also used by search engines.
 
-### The DOCTYPE
+## DOCTYPE
 
-Over the years there have been many [different versions of HTML](https://www.yourhtmlsource.com/starthere/historyofhtml.html). HTML 5 is the latest version of the HTML standard.
-
-Browsers are backwards compatible and support older versions of HTML. To ensure the browser interprets (parses) the HTML document correctly, we need to instruct the browser as to which version of HTML is contained in the document. This instruction is known as the __DOCTYPE__.
+Over the years there have been many [different versions of HTML](https://www.yourhtmlsource.com/starthere/historyofhtml.html). Browsers are backwards compatible and support older versions of HTML. HTML 5 is the latest version of the HTML standard. To ensure browsers parse the HTML document correctly, we need to instruct the browser as to which version of HTML is contained in the document. This instruction is known as the __DOCTYPE__.
 
 The DOCTYPE is not considered a tag, it is an instruction. As this instruction informs the browser on how to interpret the document it must appear at the start of the document.
 
@@ -148,7 +142,6 @@ Update `index.html` to include the HTML 5 DOCTYPE:
   </body>
 </html>
 ```
-Now we have a valid HTML 5 document.
 
 HTML 5 has the simplest DOCTYPE. If you are interested other DOCTYPE declarations you can read about them on [this W3C page](https://www.w3.org/QA/2002/04/valid-dtd-list.html).
 
@@ -157,3 +150,17 @@ HTML 5 has the simplest DOCTYPE. If you are interested other DOCTYPE declaration
 As it's name suggests HTML is a markup language. This is because we add tags (_marks_) to the page, which provides additional context to browsers. It is typical for developers refer to these tags as _HTML markup_.
 
 When used correctly HTML tags provide relevant meaning to areas of a document. Therefore these tags are often referred to as _semantic markup_. Using meaningful tags is important for [accessability](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility#What_is_accessibility). Users who are visually impaired may use a screen reader to read and navigate the site. Using proper semantic markup helps the screen reader to provide a coherent experience for these users.
+
+## Further Reading
+
+For more information on HTML
+- [HTML 5 Tutorial by W3Schools](https://www.w3schools.com/html/) (tutorial)
+- [HTML and CSS: Design and Build Websites by Jon Duckett](https://www.wiley.com/en-us/HTML+and+CSS%3A+Design+and+Build+Websites-p-9781118008188) (book)
+
+The `lang` attribute in the `html` tag
+- [On Use of the Lang Attribute by Adrian Roselli](http://blog.adrianroselli.com/2015/01/on-use-of-lang-attribute.html) (article)
+- [Why use the language attribute? by W3C](https://www.w3.org/International/questions/qa-lang-why)
+- [What is the difference between lang="en" and lang="en-US"?](https://stackoverflow.com/a/11319263/259477) (article)
+
+For more information on Semantic Markup
+- [Semantic Markup by html.com](https://html.com/semantic-markup/) (article)
