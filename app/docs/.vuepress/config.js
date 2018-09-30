@@ -18,7 +18,9 @@ module.exports = {
       '/',
       '/guide/chapter-00/',
       '/guide/chapter-00/prerequisites',
-      '/guide/chapter-01/introduction-html'
+      '/guide/chapter-01/',
+      '/guide/chapter-02/',
+      '/guide/chapter-03/'
       // {
       //   title: '01 - Introduction',
       //   collapsable: true,
