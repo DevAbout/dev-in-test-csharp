@@ -183,7 +183,6 @@ When used correctly HTML tags provide relevant meaning to areas of a document. T
 For more information on HTML
 - [HTML Crash Course For Absolute Beginners by Traversy Media](https://youtu.be/UB1O30fR-EE) (video)
 - [HTML 5 Tutorial by W3Schools](https://www.w3schools.com/html/) (tutorial)
-- [HTML and CSS: Design and Build Websites by Jon Duckett](https://www.wiley.com/en-us/HTML+and+CSS%3A+Design+and+Build+Websites-p-9781118008188) (book)
 
 ### Notable Mentions
 
