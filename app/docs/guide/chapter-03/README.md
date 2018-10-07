@@ -1,13 +1,5 @@
 # Introduction to CSS
 
-::: spoiler click me
-content goes here
-:::
-
-::: warning
-content goes here
-:::
-
 At the risk of being repetitive, we will restate the purpose of HTML, CSS, and JavaScript:
 
 * **HTML** is for the structure and semantics of a document
