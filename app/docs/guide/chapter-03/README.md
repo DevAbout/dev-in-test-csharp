@@ -154,6 +154,8 @@ Cascading Style Sheets have the term _cascade_ in the name for a number of reaso
 
 Notice how the background color has changed for nested children. This would also work for other properties, such as the font-family.
 
+## Supplementary Information
+
 ### Recommended
 
 - [HTML and CSS: Design and Build Websites by Jon Duckett](https://www.wiley.com/en-us/HTML+and+CSS%3A+Design+and+Build+Websites-p-9781118008188) (book)
