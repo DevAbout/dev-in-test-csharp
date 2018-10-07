@@ -4,31 +4,7 @@ module.exports = {
   title: 'Become a Developer in Test - C# Edition',
   description: 'This guide is an introduction to test automation in C#',
   markdown: {
-    lineNumbers: true,
-    config: md => {
-      // use more markdown-it plugins!
-      md.use(require('markdown-it-container'), 'spoiler', {
-        validate: function(params) {
-          return params.trim().match(/^spoiler\s+(.*)$/);
-        },
-
-        render: function (tokens, idx) {
-          var m = tokens[idx].info.trim().match(/^spoiler\s+(.*)$/);
-
-          if (tokens[idx].nesting === 1) {
-            // opening tag
-            return '<details><summary>' + md.utils.escapeHtml(m[1]) + '</summary><div class="spoiler">\n';
-
-          } else {
-            // closing tag
-            return '</div></details>\n';
-          }
-        }
-      });
-
-      // console.log(md.render('::: spoiler click me\n*content*\n:::\n'));
-
-    }
+    lineNumbers: true
   },
   themeConfig: {
     repo: 'https://github.com/DevAbout/dev-in-test-csharp',
@@ -44,7 +20,8 @@ module.exports = {
       '/guide/chapter-00/prerequisites',
       '/guide/chapter-01/',
       '/guide/chapter-02/',
-      '/guide/chapter-03/'
+      '/guide/chapter-03/',
+      '/guide/chapter-04/'
       // {
       //   title: '01 - Introduction',
       //   collapsable: true,
