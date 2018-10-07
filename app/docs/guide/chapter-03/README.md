@@ -1,12 +1,12 @@
 # Introduction to CSS
 
-In this section we give a brief introduction to Cascading Style Sheets (CSS). The intention is not to teach each property of CSS, but rather to give a good idea of how CSS is applied and what are some of its capabilities. The examples get intentionally complex in order to be similar to examples you will find on the job.
-
 At the risk of being repetitive, we will restate the purpose of HTML, CSS, and JavaScript:
 
 * **HTML** is for the structure and semantics of a document
 * **CSS** provides the visual styles
-* **JavaScript** enables dynamic behaviors
+* **JavaScript** enables behaviors
+
+As a Developer in Test it is unlikely that you would be expected to style the page. Teams typically have designers who specialize in this area. Therefore the intention here is not to teach each CSS in depth, but rather to give a good idea of how CSS is applied and what are some of its capabilities.
 
 ## Applying CSS
 
@@ -15,7 +15,11 @@ CSS can be applied to a page using three different approaches:
 * Embedded Styles
 * External Styles
 
-In this section we will use Inline Styles. As the guide progresses, we will see the limitations of this approach and the advantages of Embedded and External Style Sheets.
+In this section we will use Inline Styles. As the guide progresses we will see the limitations of this approach and the advantages of Embedded and External Style Sheets.
+
+::: tip
+Later on in the guide we will move onto Embedded and External Styles. At that stage we will cover an aspect of CSS known as **CSS selectors**. CSS Selectors are used in both CSS as well as in automated tests. Therefore there is an overlap between CSS and test automation. This is why we are taking time to build up a foundational understanding of CSS.
+:::
 
 ## Inline Styles
 
@@ -152,8 +156,9 @@ Notice how the background color has changed for nested children. This would also
 
 ### Recommended
 
-Hex Colors
-- [Hex colors, how do they work?](https://hackernoon.com/hex-colors-how-do-they-work-d8cb935ac0f) (blog)
+- [HTML and CSS: Design and Build Websites by Jon Duckett](https://www.wiley.com/en-us/HTML+and+CSS%3A+Design+and+Build+Websites-p-9781118008188) (book)
 
 ### Notable Mentions
 
+Hex Colors
+- [Hex colors, how do they work?](https://hackernoon.com/hex-colors-how-do-they-work-d8cb935ac0f) (blog)
