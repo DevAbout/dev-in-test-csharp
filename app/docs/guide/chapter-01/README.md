@@ -23,6 +23,10 @@ Farm Recipes
 Now we need to save this file __with the correct extension__ within `C:\dev\farm-recipes`. In Notepad click `file > save as`. Browse to `C:\dev\farm-recipes`. In the file name enter `index.html`. Before saving, change __Save as type__ to __All Files (\*.\*)__. The last step is to click save.
 
 ::: tip
+Another convenient way to save a file with the correct extension in Notepad is to use quotes. This approach is detailed in [this Lifehacker post](https://lifehacker.com/5883860/change-the-file-extension-of-any-file-through-windows-save-as-menu).
+:::
+
+::: tip
 To verify that the file has the correct extension, open `C:\dev\farm-recipes` within Windows Explorer and double check the `index.html` file extension. The file should end with `.html` and not __.html.txt__.
 :::
 
